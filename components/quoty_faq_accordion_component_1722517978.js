@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1722517978", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Blockchain Analytics App</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1722517978", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is blockchain analytics?", description: "Blockchain analytics involves analyzing data from blockchain networks to derive insights about transactions, addresses, smart contracts and more. Our app provides powerful tools to explore and monitor blockchain activity.", expanded: false },
+                { title: "What blockchains does your app support?", description: "We currently support analysis of Bitcoin, Ethereum, and several other major blockchain networks. Our roadmap includes expanding to additional chains based on user demand.", expanded: false },
+                { title: "What kind of analytics can I perform?", description: "You can track transactions, monitor addresses and wallets, analyze smart contract activity, visualize network statistics, and much more. Our app provides a comprehensive suite of on-chain analytics capabilities.", expanded: false },
+                { title: "Is my blockchain data kept private?", description: "Yes, all of your blockchain data and analysis is kept completely private and secure within our encrypted app environment. We never share or sell user information.", expanded: false },
             ],
         };
     },
